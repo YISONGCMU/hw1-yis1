@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 11:14:59 EDT 2013 */
+/* First created by JCasGen Tue Sep 10 22:07:31 EDT 2013 */
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
@@ -10,7 +10,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Tue Sep 10 11:14:59 EDT 2013
+ * Updated by JCasGen Tue Sep 10 22:09:35 EDT 2013
  * XML source: C:/Users/sy/git/hw1-yis1/hw1-yis1/src/main/resources/hw1-yis1-typesystem.xml
  * @generated */
 public class TokenAnnotation extends Annotation {
@@ -77,6 +77,24 @@ public class TokenAnnotation extends Annotation {
     if (TokenAnnotation_Type.featOkTst && ((TokenAnnotation_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "TokenAnnotation");
     jcasType.ll_cas.ll_setDoubleValue(addr, ((TokenAnnotation_Type)jcasType).casFeatCode_confidence, v);}    
+   
+    
+  //*--------------*
+  //* Feature: casProcessorId
+
+  /** getter for casProcessorId - gets 
+   * @generated */
+  public String getCasProcessorId() {
+    if (TokenAnnotation_Type.featOkTst && ((TokenAnnotation_Type)jcasType).casFeat_casProcessorId == null)
+      jcasType.jcas.throwFeatMissing("casProcessorId", "TokenAnnotation");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((TokenAnnotation_Type)jcasType).casFeatCode_casProcessorId);}
+    
+  /** setter for casProcessorId - sets  
+   * @generated */
+  public void setCasProcessorId(String v) {
+    if (TokenAnnotation_Type.featOkTst && ((TokenAnnotation_Type)jcasType).casFeat_casProcessorId == null)
+      jcasType.jcas.throwFeatMissing("casProcessorId", "TokenAnnotation");
+    jcasType.ll_cas.ll_setStringValue(addr, ((TokenAnnotation_Type)jcasType).casFeatCode_casProcessorId, v);}    
   }
 
     

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Sep 10 11:14:59 EDT 2013 */
+/* First created by JCasGen Tue Sep 10 22:07:31 EDT 2013 */
 
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
@@ -13,7 +13,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Tue Sep 10 11:14:59 EDT 2013
+ * Updated by JCasGen Tue Sep 10 22:09:35 EDT 2013
  * @generated */
 public class TokenAnnotation_Type extends Annotation_Type {
   /** @generated */
@@ -60,6 +60,24 @@ public class TokenAnnotation_Type extends Annotation_Type {
     ll_cas.ll_setDoubleValue(addr, casFeatCode_confidence, v);}
     
   
+ 
+  /** @generated */
+  final Feature casFeat_casProcessorId;
+  /** @generated */
+  final int     casFeatCode_casProcessorId;
+  /** @generated */ 
+  public String getCasProcessorId(int addr) {
+        if (featOkTst && casFeat_casProcessorId == null)
+      jcas.throwFeatMissing("casProcessorId", "TokenAnnotation");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_casProcessorId);
+  }
+  /** @generated */    
+  public void setCasProcessorId(int addr, String v) {
+        if (featOkTst && casFeat_casProcessorId == null)
+      jcas.throwFeatMissing("casProcessorId", "TokenAnnotation");
+    ll_cas.ll_setStringValue(addr, casFeatCode_casProcessorId, v);}
+    
+  
 
 
 
@@ -72,6 +90,10 @@ public class TokenAnnotation_Type extends Annotation_Type {
  
     casFeat_confidence = jcas.getRequiredFeatureDE(casType, "confidence", "uima.cas.Double", featOkTst);
     casFeatCode_confidence  = (null == casFeat_confidence) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_confidence).getCode();
+
+ 
+    casFeat_casProcessorId = jcas.getRequiredFeatureDE(casType, "casProcessorId", "uima.cas.String", featOkTst);
+    casFeatCode_casProcessorId  = (null == casFeat_casProcessorId) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_casProcessorId).getCode();
 
   }
 }

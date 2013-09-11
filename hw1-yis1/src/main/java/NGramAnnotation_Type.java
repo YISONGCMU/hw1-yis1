@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Sep 10 11:14:59 EDT 2013 */
+/* First created by JCasGen Tue Sep 10 22:07:31 EDT 2013 */
 
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
@@ -12,7 +12,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Tue Sep 10 11:14:59 EDT 2013
+ * Updated by JCasGen Tue Sep 10 22:09:35 EDT 2013
  * @generated */
 public class NGramAnnotation_Type extends TokenAnnotation_Type {
   /** @generated */
@@ -65,7 +65,7 @@ public class NGramAnnotation_Type extends TokenAnnotation_Type {
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
-	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
+  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
   }
    
   /** @generated */ 

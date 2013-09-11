@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Sep 10 11:14:59 EDT 2013 */
+/* First created by JCasGen Tue Sep 10 22:07:31 EDT 2013 */
 
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Tue Sep 10 11:14:59 EDT 2013
+ * Updated by JCasGen Tue Sep 10 22:09:35 EDT 2013
  * @generated */
 public class QuestionAnnotation_Type extends TokenAnnotation_Type {
   /** @generated */
