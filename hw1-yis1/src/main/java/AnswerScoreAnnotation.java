@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 22:07:31 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 21:11:02 EDT 2013 */
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
@@ -9,7 +9,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Wed Sep 11 21:04:49 EDT 2013
+ * Updated by JCasGen Wed Sep 11 21:11:02 EDT 2013
  * XML source: C:/Users/sy/git/hw1-yis1/hw1-yis1/src/main/resources/hw1-yis1-typesystem.xml
  * @generated */
 public class AnswerScoreAnnotation extends TokenAnnotation {

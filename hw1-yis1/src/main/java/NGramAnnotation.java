@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 22:07:31 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 21:11:02 EDT 2013 */
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** 
- * Updated by JCasGen Wed Sep 11 21:04:49 EDT 2013
+ * Updated by JCasGen Wed Sep 11 21:11:02 EDT 2013
  * XML source: C:/Users/sy/git/hw1-yis1/hw1-yis1/src/main/resources/hw1-yis1-typesystem.xml
  * @generated */
 public class NGramAnnotation extends TokenAnnotation {
@@ -78,7 +78,7 @@ public class NGramAnnotation extends TokenAnnotation {
       jcasType.jcas.throwFeatMissing("elements", "NGramAnnotation");
     jcasType.ll_cas.ll_setRefValue(addr, ((NGramAnnotation_Type)jcasType).casFeatCode_elements, jcasType.ll_cas.ll_getFSRef(v));}    
     
-  /** indexed getter for elements - gets an indexed value - 
+  /** indexed getter for elements - gets an indexed value - The elements of NGramAnnotation, which are tokens of TokenAnnotation type.
    * @generated */
   public TokenAnnotation getElements(int i) {
     if (NGramAnnotation_Type.featOkTst && ((NGramAnnotation_Type)jcasType).casFeat_elements == null)
@@ -86,7 +86,7 @@ public class NGramAnnotation extends TokenAnnotation {
     jcasType.jcas.checkArrayBounds(jcasType.ll_cas.ll_getRefValue(addr, ((NGramAnnotation_Type)jcasType).casFeatCode_elements), i);
     return (TokenAnnotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((NGramAnnotation_Type)jcasType).casFeatCode_elements), i)));}
 
-  /** indexed setter for elements - sets an indexed value - 
+  /** indexed setter for elements - sets an indexed value - The elements of NGramAnnotation, which are tokens of TokenAnnotation type.
    * @generated */
   public void setElements(int i, TokenAnnotation v) { 
     if (NGramAnnotation_Type.featOkTst && ((NGramAnnotation_Type)jcasType).casFeat_elements == null)

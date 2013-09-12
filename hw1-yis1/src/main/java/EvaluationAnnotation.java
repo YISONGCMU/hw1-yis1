@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Sep 11 20:39:50 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 21:11:02 EDT 2013 */
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
@@ -12,7 +12,7 @@ import org.apache.uima.jcas.cas.FSList;
 
 /** Output the Answer by the value of answer score
 and the Precision at N.
- * Updated by JCasGen Wed Sep 11 21:04:49 EDT 2013
+ * Updated by JCasGen Wed Sep 11 21:11:02 EDT 2013
  * XML source: C:/Users/sy/git/hw1-yis1/hw1-yis1/src/main/resources/hw1-yis1-typesystem.xml
  * @generated */
 public class EvaluationAnnotation extends FSList {
@@ -111,7 +111,7 @@ Answer Annotations are ranked by the answer score.
     jcasType.ll_cas.ll_setRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_elements, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for elements - gets an indexed value - the output of the evaluation step.
-Answer Annotations are ranked by the answer score. 
+Answer Annotations are ranked by the answer score.
    * @generated */
   public AnswerScoreAnnotation getElements(int i) {
     if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_elements == null)
@@ -120,7 +120,7 @@ Answer Annotations are ranked by the answer score.
     return (AnswerScoreAnnotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_elements), i)));}
 
   /** indexed setter for elements - sets an indexed value - the output of the evaluation step.
-Answer Annotations are ranked by the answer score. 
+Answer Annotations are ranked by the answer score.
    * @generated */
   public void setElements(int i, AnswerScoreAnnotation v) { 
     if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_elements == null)

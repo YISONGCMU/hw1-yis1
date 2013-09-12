@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Sep 11 20:39:50 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 21:11:02 EDT 2013 */
 
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
@@ -14,7 +14,7 @@ import org.apache.uima.jcas.cas.FSList_Type;
 
 /** Output the Answer by the value of answer score
 and the Precision at N.
- * Updated by JCasGen Wed Sep 11 21:04:49 EDT 2013
+ * Updated by JCasGen Wed Sep 11 21:11:02 EDT 2013
  * @generated */
 public class EvaluationAnnotation_Type extends FSList_Type {
   /** @generated */
@@ -103,7 +103,7 @@ public class EvaluationAnnotation_Type extends FSList_Type {
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
   }
    
   /** @generated */ 
