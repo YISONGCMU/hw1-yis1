@@ -9,7 +9,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Tue Sep 10 22:09:35 EDT 2013
+ * Updated by JCasGen Wed Sep 11 20:42:43 EDT 2013
  * XML source: C:/Users/sy/git/hw1-yis1/hw1-yis1/src/main/resources/hw1-yis1-typesystem.xml
  * @generated */
 public class AnswerAnnotation extends TokenAnnotation {
@@ -63,14 +63,14 @@ public class AnswerAnnotation extends TokenAnnotation {
   //*--------------*
   //* Feature: isCorrect
 
-  /** getter for isCorrect - gets 
+  /** getter for isCorrect - gets The boolean value of whether the answer is correct.
    * @generated */
   public boolean getIsCorrect() {
     if (AnswerAnnotation_Type.featOkTst && ((AnswerAnnotation_Type)jcasType).casFeat_isCorrect == null)
       jcasType.jcas.throwFeatMissing("isCorrect", "AnswerAnnotation");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((AnswerAnnotation_Type)jcasType).casFeatCode_isCorrect);}
     
-  /** setter for isCorrect - sets  
+  /** setter for isCorrect - sets The boolean value of whether the answer is correct. 
    * @generated */
   public void setIsCorrect(boolean v) {
     if (AnswerAnnotation_Type.featOkTst && ((AnswerAnnotation_Type)jcasType).casFeat_isCorrect == null)

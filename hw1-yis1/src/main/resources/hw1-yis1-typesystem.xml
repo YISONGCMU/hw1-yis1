@@ -18,7 +18,7 @@
       <features>
         <featureDescription>
           <name>isCorrect</name>
-          <description/>
+          <description>The boolean value of whether the answer is correct.</description>
           <rangeTypeName>uima.cas.Boolean</rangeTypeName>
         </featureDescription>
       </features>
@@ -47,13 +47,13 @@
       <features>
         <featureDescription>
           <name>elements</name>
-          <description/>
+          <description>The elements of NGramAnnotation, which are tokens of TokenAnnotation type.</description>
           <rangeTypeName>uima.cas.FSArray</rangeTypeName>
           <elementType>TokenAnnotation</elementType>
         </featureDescription>
         <featureDescription>
           <name>elementType</name>
-          <description/>
+          <description>Describe the element type of NGramAnnotation, which should be TokenAnnotation.</description>
           <rangeTypeName>uima.cas.String</rangeTypeName>
         </featureDescription>
       </features>
@@ -72,6 +72,31 @@
           <name>answer</name>
           <description/>
           <rangeTypeName>AnswerAnnotation</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  <typeDescription>
+      <name>EvaluationAnnotation</name>
+      <description>Output the Answer by the value of answer score
+and the Precision at N.</description>
+      <supertypeName>uima.cas.FSList</supertypeName>
+      <features>
+        <featureDescription>
+          <name>Precision</name>
+          <description>The answer score precision at N (where N is the total number of correct answers)</description>
+          <rangeTypeName>uima.cas.Double</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>AnswerNumberN</name>
+          <description>Total answer number.</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>elements</name>
+          <description>the output of the evaluation step.
+Answer Annotations are ranked by the answer score. </description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>AnswerScoreAnnotation</elementType>
         </featureDescription>
       </features>
     </typeDescription>

@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** 
- * Updated by JCasGen Tue Sep 10 22:09:35 EDT 2013
+ * Updated by JCasGen Wed Sep 11 20:42:43 EDT 2013
  * XML source: C:/Users/sy/git/hw1-yis1/hw1-yis1/src/main/resources/hw1-yis1-typesystem.xml
  * @generated */
 public class NGramAnnotation extends TokenAnnotation {
@@ -64,14 +64,14 @@ public class NGramAnnotation extends TokenAnnotation {
   //*--------------*
   //* Feature: elements
 
-  /** getter for elements - gets 
+  /** getter for elements - gets The elements of NGramAnnotation, which are tokens of TokenAnnotation type.
    * @generated */
   public FSArray getElements() {
     if (NGramAnnotation_Type.featOkTst && ((NGramAnnotation_Type)jcasType).casFeat_elements == null)
       jcasType.jcas.throwFeatMissing("elements", "NGramAnnotation");
     return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((NGramAnnotation_Type)jcasType).casFeatCode_elements)));}
     
-  /** setter for elements - sets  
+  /** setter for elements - sets The elements of NGramAnnotation, which are tokens of TokenAnnotation type. 
    * @generated */
   public void setElements(FSArray v) {
     if (NGramAnnotation_Type.featOkTst && ((NGramAnnotation_Type)jcasType).casFeat_elements == null)
@@ -98,14 +98,14 @@ public class NGramAnnotation extends TokenAnnotation {
   //*--------------*
   //* Feature: elementType
 
-  /** getter for elementType - gets 
+  /** getter for elementType - gets Describe the element type of NGramAnnotation, which should be TokenAnnotation.
    * @generated */
   public String getElementType() {
     if (NGramAnnotation_Type.featOkTst && ((NGramAnnotation_Type)jcasType).casFeat_elementType == null)
       jcasType.jcas.throwFeatMissing("elementType", "NGramAnnotation");
     return jcasType.ll_cas.ll_getStringValue(addr, ((NGramAnnotation_Type)jcasType).casFeatCode_elementType);}
     
-  /** setter for elementType - sets  
+  /** setter for elementType - sets Describe the element type of NGramAnnotation, which should be TokenAnnotation. 
    * @generated */
   public void setElementType(String v) {
     if (NGramAnnotation_Type.featOkTst && ((NGramAnnotation_Type)jcasType).casFeat_elementType == null)
