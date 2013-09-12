@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Wed Sep 11 20:42:43 EDT 2013
+ * Updated by JCasGen Wed Sep 11 20:57:30 EDT 2013
  * @generated */
 public class QuestionAnnotation_Type extends TokenAnnotation_Type {
   /** @generated */

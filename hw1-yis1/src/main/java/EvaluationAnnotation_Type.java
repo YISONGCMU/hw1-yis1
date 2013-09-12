@@ -14,7 +14,7 @@ import org.apache.uima.jcas.cas.FSList_Type;
 
 /** Output the Answer by the value of answer score
 and the Precision at N.
- * Updated by JCasGen Wed Sep 11 20:42:43 EDT 2013
+ * Updated by JCasGen Wed Sep 11 20:57:30 EDT 2013
  * @generated */
 public class EvaluationAnnotation_Type extends FSList_Type {
   /** @generated */
@@ -81,39 +81,39 @@ public class EvaluationAnnotation_Type extends FSList_Type {
   
  
   /** @generated */
-  final Feature casFeat_elements;
+  final Feature casFeat_Elements;
   /** @generated */
-  final int     casFeatCode_elements;
+  final int     casFeatCode_Elements;
   /** @generated */ 
   public int getElements(int addr) {
-        if (featOkTst && casFeat_elements == null)
-      jcas.throwFeatMissing("elements", "EvaluationAnnotation");
-    return ll_cas.ll_getRefValue(addr, casFeatCode_elements);
+        if (featOkTst && casFeat_Elements == null)
+      jcas.throwFeatMissing("Elements", "EvaluationAnnotation");
+    return ll_cas.ll_getRefValue(addr, casFeatCode_Elements);
   }
   /** @generated */    
   public void setElements(int addr, int v) {
-        if (featOkTst && casFeat_elements == null)
-      jcas.throwFeatMissing("elements", "EvaluationAnnotation");
-    ll_cas.ll_setRefValue(addr, casFeatCode_elements, v);}
+        if (featOkTst && casFeat_Elements == null)
+      jcas.throwFeatMissing("Elements", "EvaluationAnnotation");
+    ll_cas.ll_setRefValue(addr, casFeatCode_Elements, v);}
     
    /** @generated */
   public int getElements(int addr, int i) {
-        if (featOkTst && casFeat_elements == null)
-      jcas.throwFeatMissing("elements", "EvaluationAnnotation");
+        if (featOkTst && casFeat_Elements == null)
+      jcas.throwFeatMissing("Elements", "EvaluationAnnotation");
     if (lowLevelTypeChecks)
-      return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i, true);
-    jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
+      return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_Elements), i, true);
+    jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_Elements), i);
+  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_Elements), i);
   }
    
   /** @generated */ 
   public void setElements(int addr, int i, int v) {
-        if (featOkTst && casFeat_elements == null)
-      jcas.throwFeatMissing("elements", "EvaluationAnnotation");
+        if (featOkTst && casFeat_Elements == null)
+      jcas.throwFeatMissing("Elements", "EvaluationAnnotation");
     if (lowLevelTypeChecks)
-      ll_cas.ll_setRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i, v, true);
-    jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
-    ll_cas.ll_setRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i, v);
+      ll_cas.ll_setRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_Elements), i, v, true);
+    jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_Elements), i);
+    ll_cas.ll_setRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_Elements), i, v);
   }
  
 
@@ -134,8 +134,8 @@ public class EvaluationAnnotation_Type extends FSList_Type {
     casFeatCode_AnswerNumberN  = (null == casFeat_AnswerNumberN) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_AnswerNumberN).getCode();
 
  
-    casFeat_elements = jcas.getRequiredFeatureDE(casType, "elements", "uima.cas.FSArray", featOkTst);
-    casFeatCode_elements  = (null == casFeat_elements) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_elements).getCode();
+    casFeat_Elements = jcas.getRequiredFeatureDE(casType, "Elements", "uima.cas.FSArray", featOkTst);
+    casFeatCode_Elements  = (null == casFeat_Elements) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_Elements).getCode();
 
   }
 }

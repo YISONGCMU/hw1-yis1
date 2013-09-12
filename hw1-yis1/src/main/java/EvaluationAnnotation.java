@@ -12,7 +12,7 @@ import org.apache.uima.jcas.cas.FSList;
 
 /** Output the Answer by the value of answer score
 and the Precision at N.
- * Updated by JCasGen Wed Sep 11 20:42:43 EDT 2013
+ * Updated by JCasGen Wed Sep 11 20:57:30 EDT 2013
  * XML source: C:/Users/sy/git/hw1-yis1/hw1-yis1/src/main/resources/hw1-yis1-typesystem.xml
  * @generated */
 public class EvaluationAnnotation extends FSList {
@@ -92,41 +92,41 @@ public class EvaluationAnnotation extends FSList {
    
     
   //*--------------*
-  //* Feature: elements
+  //* Feature: Elements
 
-  /** getter for elements - gets the output of the evaluation step.
+  /** getter for Elements - gets the output of the evaluation step.
 Answer Annotations are ranked by the answer score. 
    * @generated */
   public FSArray getElements() {
-    if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_elements == null)
-      jcasType.jcas.throwFeatMissing("elements", "EvaluationAnnotation");
-    return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_elements)));}
+    if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_Elements == null)
+      jcasType.jcas.throwFeatMissing("Elements", "EvaluationAnnotation");
+    return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_Elements)));}
     
-  /** setter for elements - sets the output of the evaluation step.
+  /** setter for Elements - sets the output of the evaluation step.
 Answer Annotations are ranked by the answer score.  
    * @generated */
   public void setElements(FSArray v) {
-    if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_elements == null)
-      jcasType.jcas.throwFeatMissing("elements", "EvaluationAnnotation");
-    jcasType.ll_cas.ll_setRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_elements, jcasType.ll_cas.ll_getFSRef(v));}    
+    if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_Elements == null)
+      jcasType.jcas.throwFeatMissing("Elements", "EvaluationAnnotation");
+    jcasType.ll_cas.ll_setRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_Elements, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for elements - gets an indexed value - the output of the evaluation step.
 Answer Annotations are ranked by the answer score. 
    * @generated */
   public AnswerScoreAnnotation getElements(int i) {
-    if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_elements == null)
-      jcasType.jcas.throwFeatMissing("elements", "EvaluationAnnotation");
-    jcasType.jcas.checkArrayBounds(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_elements), i);
-    return (AnswerScoreAnnotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_elements), i)));}
+    if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_Elements == null)
+      jcasType.jcas.throwFeatMissing("Elements", "EvaluationAnnotation");
+    jcasType.jcas.checkArrayBounds(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_Elements), i);
+    return (AnswerScoreAnnotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_Elements), i)));}
 
   /** indexed setter for elements - sets an indexed value - the output of the evaluation step.
 Answer Annotations are ranked by the answer score. 
    * @generated */
   public void setElements(int i, AnswerScoreAnnotation v) { 
-    if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_elements == null)
-      jcasType.jcas.throwFeatMissing("elements", "EvaluationAnnotation");
-    jcasType.jcas.checkArrayBounds(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_elements), i);
-    jcasType.ll_cas.ll_setRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_elements), i, jcasType.ll_cas.ll_getFSRef(v));}
+    if (EvaluationAnnotation_Type.featOkTst && ((EvaluationAnnotation_Type)jcasType).casFeat_Elements == null)
+      jcasType.jcas.throwFeatMissing("Elements", "EvaluationAnnotation");
+    jcasType.jcas.checkArrayBounds(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_Elements), i);
+    jcasType.ll_cas.ll_setRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((EvaluationAnnotation_Type)jcasType).casFeatCode_Elements), i, jcasType.ll_cas.ll_getFSRef(v));}
   }
 
     
