@@ -12,7 +12,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Wed Sep 11 20:57:30 EDT 2013
+ * Updated by JCasGen Wed Sep 11 21:04:49 EDT 2013
  * @generated */
 public class NGramAnnotation_Type extends TokenAnnotation_Type {
   /** @generated */

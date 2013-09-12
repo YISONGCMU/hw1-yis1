@@ -92,9 +92,9 @@ and the Precision at N.</description>
           <rangeTypeName>uima.cas.Integer</rangeTypeName>
         </featureDescription>
         <featureDescription>
-          <name>Elements</name>
+          <name>elements</name>
           <description>the output of the evaluation step.
-Answer Annotations are ranked by the answer score. </description>
+Answer Annotations are ranked by the answer score.</description>
           <rangeTypeName>uima.cas.FSArray</rangeTypeName>
           <elementType>AnswerScoreAnnotation</elementType>
         </featureDescription>

@@ -9,7 +9,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Wed Sep 11 20:57:30 EDT 2013
+ * Updated by JCasGen Wed Sep 11 21:04:49 EDT 2013
  * XML source: C:/Users/sy/git/hw1-yis1/hw1-yis1/src/main/resources/hw1-yis1-typesystem.xml
  * @generated */
 public class AnswerScoreAnnotation extends TokenAnnotation {
